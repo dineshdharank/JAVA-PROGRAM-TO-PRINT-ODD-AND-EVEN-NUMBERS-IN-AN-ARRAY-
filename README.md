@@ -57,10 +57,32 @@ o View output in the Console window.
 o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
+```
+public class Evenodd {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 23, 56, 89, 34, 67, 90, 11, 22};  
 
+        System.out.print("Even Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                System.out.print(num + " ");
+            }
+        }
+
+        System.out.println();
+
+        System.out.print("Odd Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 != 0) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+}
+
+```
 ## OUTPUT:
-
-
-
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/19a8338f-980e-4e6f-888f-76fd48cd10ae" />
 
 ## RESULT:
+Thus, The java program to print odd and even numbers in an array is developed, and the output is verified.
